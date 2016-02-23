@@ -3,12 +3,10 @@
 # 02/22/16
 # hello.py
 
-__author__ = 'Annette Chun'
+import helper
 
-def greeting(msg):
-  print(msg)
+__author__ = 'Annette Chun'
   
 if __name__ == "__main__":
-  msg = "hello"
-  greeting(msg)
+  helper.greeting("hello")
 
